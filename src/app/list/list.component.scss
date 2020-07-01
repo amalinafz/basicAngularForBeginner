@@ -23,6 +23,9 @@ ul {
             font-weight: bold;
             font-size: 1.2rem;
         }
+        p.type {
+            text-transform: capitalize;
+        }
         p.country {
             text-transform: uppercase;
             font-size: .9rem;

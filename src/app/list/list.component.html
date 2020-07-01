@@ -3,8 +3,8 @@
 <ul *ngIf="brews">
   <li *ngFor="let brew of brews">
     <p class="name">{{ brew.name }}</p>
-    <p class="type">{{ brew.brewery_type }}</p>
-    <p class="city">{{ brew.city }}</p>
-    <a class="site" href="{{ brew.website_url }}">site</a>
+    <p class="type"><strong>Type:</strong> {{ brew.brewery_type }}</p>
+    <p class="city"><strong>City:</strong> {{ brew.city }}</p>
+    <a class="site" href="{{ brew.website_url }}">Site URL</a>
   </li>
 </ul>
